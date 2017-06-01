@@ -68,7 +68,7 @@ public class OSDebugLogs extends CordovaPlugin {
                 consoleViewGroup.setId(2001);
                 consoleViewGroup.setVisibility(View.GONE);
 
-                rootView.addView(consoleViewGroup);
+                rootView.addView(consoleViewGroup, 9999);
                 rootView.invalidate();
 
                 setConsoleViewGroup(consoleViewGroup);
